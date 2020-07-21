@@ -29,7 +29,7 @@ class NewMessage extends Component {
     let buttonDisabled = true;
     //let displaymessage;
 
-    if (this.props.users[this.props.id].username == this.state.username) {
+    if (this.props.users[this.props.id].username === this.state.username) {
       if (this.state.messagesEntered) {
         buttonDisabled = false;
       }

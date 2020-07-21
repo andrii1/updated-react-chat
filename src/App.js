@@ -4,12 +4,6 @@ import ChatWindow from "./ChatWindow";
 
 const users = [{ username: "Amy" }, { username: "John" }];
 
-const messages = [
-  { username: "Amy", text: "Hi, Jon!" },
-  { username: "Amy", text: "How are you?" },
-  { username: "John", text: "Hi, Amy! Good, you?" }
-];
-
 class AllTogetherExercise2Exercise extends Component {
   /*
    If the user did not type anything, he/she should not be
@@ -36,7 +30,7 @@ class AllTogetherExercise2Exercise extends Component {
 
     // let buttonDisabledAmy = true
     //    if (this.state.messagesAmy) {buttonDisabledAmy=false}
-    let buttonDisabledJohn = false;
+
     //  if (this.state.messagesJohn) {buttonDisabledJohn=false}
 
     return (
